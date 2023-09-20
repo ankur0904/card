@@ -1,6 +1,7 @@
-
-body{
-    /* background-color: #FFF0F5; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .custom-card {
@@ -26,3 +27,4 @@ body{
 .hero-section{
     
 }
+
