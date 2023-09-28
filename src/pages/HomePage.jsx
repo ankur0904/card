@@ -3,13 +3,11 @@ import Card from "../components/Card";
 import NavBar from "../components/NavBar";
 
 function HomePage() {
-    return (
-        <>
-            <NavBar />
-            <Card />
-        </>
-
-    )
+  return (
+    <>
+      <Card />
+    </>
+  );
 }
 
 export default HomePage;
