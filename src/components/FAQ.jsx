@@ -1,11 +1,7 @@
 import React from "react";
 
-function FAQ(){
-    return (
-        <>
-        
-        </>
-    )
-}
+const FAQ = () => {
+  return <div>FAQ</div>;
+};
 
 export default FAQ;
