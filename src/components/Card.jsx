@@ -14,18 +14,12 @@ function Card() {
               </div>
               <div className="card-body">
                 <p className="card-text mb-0 bio-para">
-                  <span className="bio-span">Bio: </span>
-                  {item.bio}
+                  <span className="bio-span">Technologies: </span>
+                  {item.technology}
                 </p>
                 <p className="card-text mb-0 bio-para">
-                  <span className="bio-span">I want to be after 5 years: </span>
-                  {item.after5year}
-                </p>
-                <p className="card-text mb-0 bio-para">
-                  <span className="bio-span">My Github: </span>
-                  <a href={`https://github.com/${item.username}`} target="_blank" rel="noopener noreferrer">
-                    {item.username}
-                  </a>
+                  <span className="bio-span">Last project built on: </span>
+                  {item.lastProject}
                 </p>
               </div>
             </div>
